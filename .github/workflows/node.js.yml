@@ -18,8 +18,8 @@ jobs:
       - name: Deploy 
         uses: actions/checkout@v4 
         with:
-          # ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: main
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
           FOLDER: build
 
 
